@@ -14,3 +14,8 @@ matrix = np.array([[1,2,3],
 print(np.max(matrix))
 # Return minimum element
 print(np.min(matrix))
+
+# Find maximum element in each column
+print(np.max(matrix,axis=0))
+# Find maximum element in each row
+print(np.min(matrix,axis=1))
