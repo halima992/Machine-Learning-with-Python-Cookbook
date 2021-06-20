@@ -28,6 +28,6 @@ size2 = matrix2.size
 matrix3 = matrix.reshape(1,-1) # one row and 12 column
 matrix4 = matrix.reshape(3,-1) # 3 row and 4 column
 matrix5 = matrix.reshape(-1,1) # 12 row and 1 column
-matrix6 = matrix.reshape(12) 
+matrix6 = matrix.reshape(12)   # will return a 1D array of that length
 
 
