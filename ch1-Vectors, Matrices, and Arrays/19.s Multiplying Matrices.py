@@ -17,3 +17,7 @@ matrix_b = np.array([[1, 3],
 
 # Multiply two matrices
 matrix_c = np.dot(matrix_a,matrix_b)
+
+# Alternatively, in Python 3.5+ we can use the @ operator:
+# Multiply two matrices
+matrix_d = matrix_a @ matrix_b
